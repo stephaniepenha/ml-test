@@ -3,6 +3,6 @@
 ### To run this project
 ```shell
 npm install
-npm run dev
+npm start
 browse to http://localhost:3000
 ```
