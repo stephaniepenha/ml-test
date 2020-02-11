@@ -1,0 +1,11 @@
+.main {
+  margin-top: var(--spacing-m);
+}
+
+.app {
+  background-color: #eeeeee;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  padding-bottom: var(--spacing-xxl);
+}

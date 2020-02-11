@@ -1,0 +1,24 @@
+{
+  "name": "ml-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "query-string": "^6.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "concurrently": "^5.1.0"
+  }
+}
