@@ -9,10 +9,10 @@ const Routes = (app, express) => {
   app.get("/api/items/:id", ProductController.get);
 
   app.get("*", (req, res) => {
-    console.log(__dirname);
-    console.log(__dirname + "./../../client/build/index.html");
-    console.log(path.join(__dirname + "./../../client/build/index.html"));
-    res.sendFile(path.join(__dirname + "./../../client/build/index.html"));
+    console.log(path.join(__dirname + "/" + "./../../client/build/index.html"));
+    res.sendFile(
+      path.join(__dirname + "/" + "./../../client/build/index.html")
+    );
   });
 };
 
